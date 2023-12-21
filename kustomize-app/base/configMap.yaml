@@ -1,6 +1,8 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
   name: the-map
 data:
   mysqlDB: "mysql.example.com:3306"
