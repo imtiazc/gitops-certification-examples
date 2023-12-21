@@ -2,7 +2,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: the-map
-  label: test
+  labels: 
+    env: test
 data:
   mysqlDB: "mysql.example.com:3306"
  
