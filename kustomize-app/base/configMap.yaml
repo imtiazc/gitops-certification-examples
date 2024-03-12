@@ -5,5 +5,5 @@ metadata:
   labels: 
     env: test
 data:
-  mysqlDB: "mysql.example.com:3306"
+  mysqlDB: "mysql.imitaz.com:3306"
  
